@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <h2 class="top-1">DENGERIN</h2>
+        <img src="music.jpeg" alt="music">
+    </div>
+    <h2 class="top-2">NOW PLAYING</h2>
+
+    <button class="upgrade">UPGRADE</button>
+    <button class="profile">
+        <img src="dp.jpg" alt="dp">
+       Manasa
+    </button>
+</div>
+
+<div class="vertical-line"></div>
+<div class="horizontal-line"></div>
+
+<div class="content">
+    <div class="navbar-container">
+        <nav class="navbar">
+            <button class="nav-button">
+                <img src="navbar/h.png" alt="Home">
+                Home
+            </button>
+            <button class="nav-button">
+                <img src="navbar/search.webp" alt="Search">
+                Search
+            </button>
+            <button class="nav-button">
+                <img src="navbar/library.jpg" alt="Library">
+                Library
+            </button>
+            <button class="nav-button">
+                <img src="navbar/settings.jpg" alt="Settings">
+                Settings
+            </button>
+        </nav>
+</div>
+
+
+    <div class="poster">
+       <img src="poster/action.jpeg" alt="poster 1"></div>
+     </div>
+
+<div class="horizontal-line-2"></div> 
+
+<div class="songlist">
+    <label for="search-bar" class="songlist-label">List Song</label>
+    <div class="search-container">
+        <img src="navbar/search.webp" alt="search" class="search-icon">
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search song...">
+    </div>
+</div>
+
+<nav class="playlist">
+    <button class="play-button">
+        <img src="playlist/play-1.jpeg" alt="play 1">
+        Playlist 1
+    </button>
+    <button class="play-button">
+        <img src="playlist/play-2.png" alt="play 2">
+        Playlist 2
+    </button>
+    <button class="play-button">
+        <img src="playlist/play-3.jpeg" alt="play 3">
+        Playlist 3
+    </button>
+</nav>
+
+
+<table class="song-table">
+    <tr>
+        <th>Title</th>
+        <th>Album</th>
+        <th>Date</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>
+            <div class="song-title">
+                <img src="songs/ghost.jpeg" alt="music1" class="table-pic">
+                <div class="song-name">
+                    Ghost<br><span class="extra-text">Justin Bieber</span>
+                </div>
+            </div>
+        </td>
+        <td>Ambition</td>
+        <td>2024-01-01</td>
+        <td>03:30</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="song-title">
+                <img src="songs/perfect.jpeg" alt="music1" class="table-pic">
+                <div class="song-name">
+                    Perfect<br><span class="extra-text">
+                        Ed Sheeran</span>
+                </div>
+            </div>
+        </td>
+        <td>Ambition</td>
+        <td>2024-01-02</td>
+        <td>04:00</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="song-title">
+                <img src="songs/song2.jpg" alt="music1" class="table-pic">
+                <div class="song-name">
+                    Lovestory<br><span class="extra-text">
+                        Taylor Swift</span>
+                </div>
+            </div>
+        </td>
+        <td>Ambition</td>
+        <td>2024-01-03</td>
+        <td>04:30</td>
+    </tr>
+</table>
+
+
+<div class="create-playlist">
+    <button class="playlist-button">Create playlist</button>
+</div>
+
+<div class="horizontal-line-3"></div> 
+
+<div class="playsong-name">
+    Perfect<br><span class="extra-text-name">Ed Sheeran</span>
+</div>
+
+    <div class="music-player">
+        <audio id="audio-player" src="Perfect-(Mr-Jat.in).mp3"></audio>
+        <div class="controls">
+            <button id="prev-btn" class="control-btn"><i class="fa fa-step-backward"></i></button>
+            <button id="play-pause-btn" class="control-btn"><i class="fa fa-play"></i></button>
+            <button id="next-btn" class="control-btn"><i class="fa fa-step-forward"></i></button>
+        </div>
+        <div class="progress-container">
+            <span class="time" id="current-time">00:00</span>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <span class="time" id="duration">00:00</span>
+        </div>
+    </div>
+</div>
+
+<div class="toolbar">
+<button> <img src="bottom\mic.jpg" alt="mic"> </button>
+<button><img src="bottom\folder.jpg" alt="folder"> </button>
+<button> <img src="bottom\switch.png" alt=""> </button>
+<button> <img src="bottom\vol.jpg" alt="vol"> </button>
+</div> 
+
+<div class="volume">
+    <img src="bottom\volume.webp" alt="volume">
+    <div class="range"></div>
+</div>
+
+<div class="container">
+    <h2 class="cont-frnd">Friend's playing</h2>
+    <div class="filter">
+        <img src="container\filter.png" alt="filer">
+        <p class="fil">Filter</p>
+
+
+        <div class="search2-container">
+            <img src="navbar/search.webp" alt="search2" class="search-icon">
+            <input type="text" id="search-bar" class="search2-bar" placeholder="Search...">
+        </div>
+    </div>
+
+    <div class="outline">
+        <p>Online</p>
+        <div class="line1"></div>
+    </div>
+
+    <div class="profile1">
+        <img src="container\profile1.jpg" alt="profile">
+        <p class="cherry">Cherry-listening to</p>
+        <img src="container\song3.jpg" alt="song1">
+        <p class="song-cherry">CALM DOWN</p>
+    </div>
+
+<div class="cont1">
+    <p class="topic1"> Clock Strikes </p>
+        
+       <p class="br1"> What waits for you ? Whaat's breaking through? Nothing for good You're sure it's true? </p>
+</div>
+
+<div class="profile2">
+    <img src="container\profile2.avif" alt="profile2">
+    <p class="bhanu">Bhanu-listening to</p>
+    <img src="container\song2.jpeg" alt="song2">
+    <p class="song-bhanu">LOVE YOURSELF</p>
+</div>
+    
+
+<div class="cont2">
+    <p class="topic2"> M.I.A </p>
+        <p class="br2">Staring at the carnage, praying that the sun will never rise living another day in disguise. </p>
+    
+</div>
+
+<div class="Offline">
+    <p class="off">Offline</p>
+    <div class="line2"></div>
+</div>
+
+
+<div class="profile3">
+    <img src="container\profile3.jpeg" alt="profile2">
+    <p class="last">Lisa-listening to</p>
+   
+</div>
+
+</div>
+
+
+
+</body>
+</html>
